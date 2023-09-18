@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.navbar{
+	height: 10vh;
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+}
+.main{
+	height: 25vh;
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+}
+.footer{
+	height: 25vh;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.row1{
+	display: flex;
+	justify-content: space-around;	
+}
+.child{
+	height: 20vh;
+	width: 20vw;
+	border: 1px solid black;
+}
+.row2{
+	border: 1px solid black;
+	text-align: center;
+}
+.child{
+	height: 56vh;
+	width: 15%;
+	border: 1px solid black;
+}
+.content{
+	height: 35vh;
+	width: 100%;
+	border: 1px solid black;
+}
+.mynav{
+	background-color: orange;
+}
